@@ -51,14 +51,7 @@ const events = [
     date: "2026-07-10",
     time: "10:00 AM",
   },
-  {
-    image: "/images/events-full.png",
-    title: "Open Source Summit North America 2026",
-    slug: "oss-na-2026",
-    location: "Vancouver, Canada",
-    date: "2026-06-22",
-    time: "09:00 AM",
-  },
+
 ];
 
 export default function Home() {
@@ -76,6 +69,7 @@ export default function Home() {
                 {events && events.length > 0 && events.map((event: IEvent) => (
                     <li key={event.title} className="list-none">
                         <EventCard {...event} />
+                        
                     </li>
                 ))}
             </ul>

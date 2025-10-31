@@ -99,7 +99,7 @@ const EventDetails = async ({ params }: { params: Promise<string> }) => {
                         <EventDetailItem icon="/icons/audience.svg" alt="audience" label={audience} />
                     </section>
 
-                    <EventAgenda agendaItems={agenda}/>
+                    <EventAgenda agendaItems={agenda} />
 
                     <section className="flex-col-gap-2">
                         <h2>About the Organizer</h2>

@@ -13,4 +13,3 @@ export const getSimilarEventsBySlug = async (slug: string) => {
         return [];
     }
 }
-
